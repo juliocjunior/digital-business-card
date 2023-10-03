@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFFFFF;
+}
+
+body {
+  background: #23252C;
+  font-family: Inter, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 317px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.Photo {
+  width: 100%;
+  background-color: #1A1B21;
+  
+  &__image {
+    width: 100%;
+  }
+}
+
+.Contact {
+  background-color: #1A1B21;
+  text-align: center;
+
+  &__name {
+    padding-top: 21px;
+    padding-bottom: 6px;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 30px;
+  }
+
+  &__job {
+    padding-bottom: 15px;
+    color: #F3BF99;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+
+  &__button {
+    width: 247px;
+    margin: 0 auto;
+    
+    &__a__email {
+      border: 1px solid #D1D5DB;
+      border-radius: 6px;
+      background-color: #FFFFFF;
+      display: flex;
+      padding: 9px 94px;
+      align-items: center;
+
+      &__image {
+        width: 20px;
+        padding-right: 5px;
+      }
+
+      &__text {
+        font-size: 14px;
+        color: #374151;
+      }
+    }
+  }
+}
+
+.Info {
+  background-color: #1A1B21;
+  width: 100%;
+  padding: 35px 35px;
+
+  &__title {
+    padding-bottom: 5px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  &__text {
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 15px;
+  }
+}
+
+#title__interesses {
+  padding-top: 10px;
+}
+
+.Links {
+  display: flex;
+  background-color: #161619;
+  padding: 19px;
+  justify-content: center;
+
+  &__link {
+    &__logo {
+        width: 25px;
+    }
+  }
+}
+
+#logo__github {
+  margin: 0 24px;
+}
