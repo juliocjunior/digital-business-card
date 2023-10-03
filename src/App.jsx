@@ -1,5 +1,5 @@
 import React from "react"
-import Images from "Images.jsx"
+import Images from "Images"
 
 function App() {
   return (
