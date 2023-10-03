@@ -1,8 +1,8 @@
 import React from "react"
-import githubIcon from "./assets/GitHub-Icon.png"
-import instagramIcon from "./assets/Instagram-Icon.png"
-import linkedinIcon from "./assets/Linkedin-Icon.png"
-import mailIcon from "./assets/Mail-Icon.png"
+import githubIcon from "./assets/github-icon.png"
+import instagramIcon from "./assets/instagram-icon.png"
+import linkedinIcon from "./assets/linkedin-icon.png"
+import mailIcon from "./assets/mail-icon.png"
 import profilePic from "./assets/profile-pic.png"
 
 const Images = {
@@ -13,4 +13,4 @@ const Images = {
     profilePic,
 }
 
-export default Images
+export default Images;
