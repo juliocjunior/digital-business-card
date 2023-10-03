@@ -1,4 +1,4 @@
-import Images from "./Images"
+import Images from "Images"
 
 function App() {
   return (
