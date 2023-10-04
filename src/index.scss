@@ -114,3 +114,17 @@ body {
 #logo__github {
   margin: 0 24px;
 }
+
+@media (max-height: 1080px) {
+  body {
+    zoom: 1.5;
+  }
+}
+
+@media (max-height: 800px) {
+  body {
+    zoom: 0.75;
+  }
+}
+
+
