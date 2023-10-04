@@ -13,6 +13,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 100vh;
 }
 
 .container {
@@ -113,24 +114,3 @@ body {
 #logo__github {
   margin: 0 24px;
 }
-
-@media (max-height: 1080px) {
-  body {
-    zoom: 1.1;
-  }
-
-  .container {
-    margin-top: 0px;
-  }
-}
-
-@media (max-height: 700px) {
-  body {
-    zoom: 0.9;
-  }
-
-  .container {
-    margin-top: 80px;
-  }
-}
-
