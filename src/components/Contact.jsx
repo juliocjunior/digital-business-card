@@ -1,5 +1,5 @@
 import React from 'react'
-import Images from "../assets/Images"
+import Images from "./Images"
 
 export default function Contact() {
     return (

@@ -1,5 +1,5 @@
 import React from "react"
-import Images from "./assets/Images"
+import Images from "./components/Images"
 import Contact from "./components/Contact"
 import Info from "./components/Info"
 import Links from "./components/Links"
